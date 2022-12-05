@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  .tweet{
+    margin:auto;
+    width:584px;
+    min-height:68px;
+    border:1px solid #ccc;
+    border-radius: 2px;
+    display:flex;
+    margin-top: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1) ;
+    line-height:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding:10px;
+  }
+  .avatar{
+    width:58px;
+    height:58px;
+    border-radius: 5px;
+    margin-left:5px;
+  }
+  
+  .content{
+    display:flex;
+    flex-direction:column;
+  }
+  .name{
+    font-weight: bold;
+    margin: 0px 0px 5px 10px; 
+  }
+  .holder{
+    color: rgb(104, 101, 101);
+    margin-left:5px;
+  
+  }
+  .message{
+    margin: 5px 0px 5px 15px; 
+    letter-spacing: 1px;
+  }
+  .buttons{
+    width: 200px;
+    font-size: 20px;
+    color:rgb(104, 101, 101);
+    margin-top:10px;
+    margin-left:2px;
+    margin-right: 10px;
+  }
+  span{
+    margin:10px;
+  }
+  .time {
+    padding-left: 0.3em;
+    color: #8899a6;
+    }
+    .time::before {
+    content: "\00b7";
+    padding-right: 0.3em;
+    }
+    .buttons {
+    margin-top: 10px;
+    margin-left: 2px;
+    padding: 5px;
+    font-size: 1.4em;
+    color: #aab8c2;
+    }
+    .buttons i {
+    width: 100px;
+    }

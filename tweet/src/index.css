@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tweet {
+  margin:auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  width: 564px;
+  min-height: 68px;
+  padding: 10px;
+  display: flex;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  
+}
+.avatar{
+  height:48px ;
+  width:48px;
+  border-radius: 5px;
+  margin-right: 2px;
+}
+.content {
+  display:flex;
+  flex-direction: column;
+}
+.name{
+  text-transform: capitalize;
+  font-weight: bold;
+  margin:0px 3px 0px 5px ;
+
+}
+.handle {
+  font-weight: lighter;
+  margin-left: 5px;
+  color:#8899a6;
+}
+.time{
+  color: #8899a6;
+}
+.message{
+  margin:10px 2px 3px 5px;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+.buttons{
+  margin: 10px 12px 3px 5px;
+  width:300px;
+  color:#8899a6;
+  display: flex;
+  justify-content:space-between;
+  font-size: 20px;
+}
+.buttons i {
+  width:14px;
+}
+.retweet{
+  position: relative;
+bottom: 5px;
+font-size: 13px;
+margin-left: 6px;
+font-weight: bold;
+}
+.retweet_button,.like_button {
+  width:50px;
+  display:inline-block;
+}
